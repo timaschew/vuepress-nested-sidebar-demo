@@ -1,0 +1,18 @@
+themeConfig:
+  sidebar: 
+    -
+      title: Getting Started
+      path: /
+    -
+      title: Frameworks
+      children:
+        -
+          title: JSX
+          children:
+            - /frameworks/jsx/react
+            - /frameworks/jsx/preact
+        -
+          title: non-JSX
+          children:
+            - /frameworks/non-jsx/vue.js
+            - /frameworks/non-jsx/angular

@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-nested-sidebar-demo",
+  "version": "1.0.0",
+  "description": "## First Header",
+  "main": "index.js",
+  "scripts": {
+    "build": "vuepress build --dest build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timaschew/vuepress-nested-sidebar-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timaschew/vuepress-nested-sidebar-demo/issues"
+  },
+  "homepage": "https://github.com/timaschew/vuepress-nested-sidebar-demo#readme",
+  "dependencies": {
+    "vuepress": "^1.0.0-alpha.44"
+  }
+}
