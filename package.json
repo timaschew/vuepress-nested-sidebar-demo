@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/timaschew/vuepress-nested-sidebar-demo#readme",
   "dependencies": {
-    "vuepress": "^1.0.0-alpha.44"
+    "vue-tabs-component": "^1.5.0",
+    "vuepress": "^1.0.0-alpha.44",
+    "vuepress-plugin-tabs": "^0.2.2"
   }
 }
