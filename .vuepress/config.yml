@@ -2,22 +2,20 @@ plugins:
   -
     - tabs
     - dedupeIds: true
-    
+
 themeConfig:
   sidebar: 
-    -
-      title: Getting Started
+    - title: Getting Started
       path: /
-    -
-      title: Frameworks
+    - title: Frameworks
       children:
-        -
-          title: JSX
+        - title: Empty Group A
+        - title: JSX
           children:
             - /frameworks/jsx/react
             - /frameworks/jsx/preact
-        -
-          title: non-JSX
+        - title: non-JSX
           children:
             - /frameworks/non-jsx/vue.js
             - /frameworks/non-jsx/angular
+        - title: Empty Group B
