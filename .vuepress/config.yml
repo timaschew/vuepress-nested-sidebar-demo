@@ -19,3 +19,9 @@ themeConfig:
             - /frameworks/non-jsx/vue.js
             - /frameworks/non-jsx/angular
         - title: Empty Group B
+    - title: External
+      children:
+        - title: VuePress
+          path: https://v1.vuepress.vuejs.org
+    - title: Vue.js
+      path: https://vuejs.org/v2/guide/
