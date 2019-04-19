@@ -1,27 +1,51 @@
-plugins:
-  -
-    - tabs
-    - dedupeIds: true
-
 themeConfig:
+  nav:
+    - text: A
+      items:
+        - text: 'A-A'
+          items:
+          - text: A-A-1
+            link: /A/A-A/A-A-1
+          - text: A-A-2
+            link: /A/A-A/A-A-2
+        - text: 'A-B'
+          items:
+          - text: A-B-1
+            link: /A/A-B/A-B-1
+          - text: A-B-2
+            link: /A/A-B/A-B-2
+    - text: C
+      items:
+        - text: C-1
+          link: /C/C-1
+        - text: C-2
+          link: /C/C-2
+    - text: D
+      link: /D
+
   sidebar: 
-    - title: Getting Started
-      path: /
-    - title: Frameworks
+    - /
+    - title: A
       children:
-        - title: Empty Group A
-        - title: JSX
+        - title: A-A
           children:
-            - /frameworks/jsx/react
-            - /frameworks/jsx/preact
-        - title: non-JSX
+            - /A/A-A/A-A-1
+            - /A/A-A/A-A-2
+        - title: A-B
           children:
-            - /frameworks/non-jsx/vue.js
-            - /frameworks/non-jsx/angular
-        - title: Empty Group B
-    - title: External
+            - /A/A-B/A-B-1
+            - /A/A-B/A-B-2
+    - title: B
       children:
-        - title: VuePress
-          path: https://v1.vuepress.vuejs.org
-    - title: Vue.js
-      path: https://vuejs.org/v2/guide/
+        - title: B-B
+          children:
+            - title: B-B-B
+              children:
+                - /B/B-B/B-B-B/B-B-B-1
+                - /B/B-B/B-B-B/B-B-B-2
+                - /B/B-B/B-B-B/B-B-B-2
+    - title: C
+      children:
+        - /C/C-1
+        - /C/C-2
+    - /D

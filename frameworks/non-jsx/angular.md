@@ -1,5 +1,0 @@
-# Angular
-
-## AngularJS
-
-## Angular (TypeScript)

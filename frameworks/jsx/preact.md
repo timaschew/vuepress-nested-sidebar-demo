@@ -1,3 +1,0 @@
-# Preact
-
-## Preact Ecosystem
